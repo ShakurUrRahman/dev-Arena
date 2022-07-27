@@ -1,4 +1,5 @@
-.course-image {
-    width: 200px;
-    height: 200px;
-}
+/* @media screen and (max-width:576) {
+    .course-image {
+        width: 100%;
+    }
+} */
