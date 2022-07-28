@@ -1,3 +1,4 @@
+/* Slide Section */
 .first-cover-pic {
     filter: brightness(50%);
 }
@@ -11,6 +12,7 @@
 
 }
 
+/* Footer Section */
 .social-icon>div>a {
     color: white;
 }
@@ -19,16 +21,10 @@
     padding-right: 15px;
 }
 
-.modal-background {
-    background-color: #289BDE;
-}
+/* Media Qeries */
 
-
-
-/* Media Qeeries */
-
+/* For Small Sizes */
 @media screen and (max-width:576px) {
-
     .my-cover-pic {
         height: 350px;
     }
@@ -44,7 +40,6 @@
 }
 
 /* For Mid Sizes */
-
 @media screen and (min-width:577px) and (max-width:820px) {
     .cover-text {
         margin: 0;
