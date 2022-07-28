@@ -2,6 +2,10 @@
     filter: brightness(50%);
 }
 
+.cover-text {
+    margin-bottom: 180px;
+}
+
 .social-icon>div {
     padding-right: 20px;
 
@@ -17,4 +21,15 @@
 
 .modal-background {
     background-color: #289BDE;
+}
+
+
+
+/* Media Qeery */
+
+@media screen and (max-width:576px) {
+    .cover-text {
+        margin: 0;
+        height: 225px;
+    }
 }
