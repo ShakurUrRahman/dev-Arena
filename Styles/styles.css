@@ -1,9 +1,3 @@
-/* @media screen and (max-width:576) {
-    .course-image {
-        width: 100%;
-    }
-} */
-
 .first-civer-pic {
     filter: brightness(50%);
 }
@@ -18,5 +12,9 @@
 }
 
 .company-images>img {
-    padding-right: 20px;
+    padding-right: 15px;
+}
+
+.modal-background {
+    background-color: #289BDE;
 }
