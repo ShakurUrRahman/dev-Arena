@@ -22,7 +22,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light py-3">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3 fw-bold" href="#">dev<span class="bg-warning">Arena</span></a>
+                <a class="navbar-brand fs-3 fw-bold" href="index.html">dev<span class="bg-warning">Arena</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav d-flex justify-content-center me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Instructors</a>
@@ -43,13 +43,14 @@
                             <a class="nav-link" href="#">Careers</a>
                         </li>
                     </ul>
-                    <button class="btn btn-warning btn-lg fst-italic" type="submit">Become One</button>
+                    <button class="btn btn-warning btn-lg fst-italic" type="submit"><a
+                            class="text-decoration-none text-dark" href="#become-one">Become
+                            One</a></button>
 
                 </div>
             </div>
         </nav>
     </header>
-
 
     <main class="container py-3">
 
@@ -57,7 +58,7 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-inner">
                 <div class="carousel-item image-fluid active">
-                    <img src="images/cover/cover-1.png" class="d-block w-100 first-civer-pic">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 my-cover-pic first-cover-pic">
                     <div class="carousel-caption cover-text">
                         <h1 class="text-light fw-bold">Make A Healthy Career & Shine Lifelong</h1>
                         <p>Learn the skills you need to live your dreams in career, hobby, and life.</p>
@@ -65,16 +66,16 @@
                     </div>
                 </div>
                 <div class="carousel-item image-fluid">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="">
-                    <div class="carousel-caption p-0">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100 my-cover-pic" alt="">
+                    <div class="carousel-caption cover-text">
                         <h1 class="text-light fw-bold">Make A Healthy Career & Shine Lifelong</h1>
                         <p>Learn the skills you need to live your dreams in career, hobby, and life.</p>
                         <button class="btn btn-success">Join A Free Class</button>
                     </div>
                 </div>
                 <div class="carousel-item image-fluid">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="">
-                    <div class="carousel-caption p-0">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100 my-cover-pic" alt="">
+                    <div class="carousel-caption cover-text">
                         <h1 class="text-light fw-bold">Make A Healthy Career & Shine Lifelong</h1>
                         <p>Learn the skills you need to live your dreams in career, hobby, and life.</p>
                         <button class="btn btn-success">Join A Free Class</button>
@@ -94,7 +95,7 @@
         </div>
 
         <!-- Course Section -->
-        <section>
+        <section id="courses">
             <h2 class="text-center pt-5 mt-5 fs-1 fw-bold">Explore Our Popular
                 <br>Courses
             </h2>
@@ -168,7 +169,7 @@
         </div>
 
         <!-- Modal Part -->
-        <section
+        <section id="become-one"
             class="bg-warning d-flex flex-column flex-lg-row flex-md-column p-3 justify-content-around align-items-center mx-md-3">
             <div class="p-5">
                 <h2 class="text-left text-dark fs-1 fw-bold">Are you ready?</h2>
@@ -222,7 +223,7 @@
         </section>
 
         <!-- Accordion Part -->
-        <section>
+        <section class="my-accordian">
             <h2 class="text-center pt-5 mt-5 fs-1 fw-bold">Some Q/A for you
             </h2>
             <p class="text-center py-3">Take a career development course on <span class="fw-bold">devs</span><span
@@ -230,7 +231,7 @@
                 and back-end development and how they interact.
             </p>
 
-            <div class="container accordion" id="accordionPanelsStayOpenExample">
+            <div class="container accordion w-75" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
