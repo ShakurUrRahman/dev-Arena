@@ -107,7 +107,7 @@
             <!-- Courses -->
             <section class="row gy-5 pt-5">
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-1.png" alt="">
+                    <img src="images/course/course-1.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">Fundamental Of UI/UX Design</h3>
                         <p>Gain a deep understanding of innovative visual design procedures in our B.A. programme. UE
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-2.png" alt="">
+                    <img src="images/course/course-2.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">Beginner Full Stack Web Development</h3>
                         <p>Learn web development with HTML, CSS, Bootstrap 4, ES6 React and Node.</p>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-3.png" alt="">
+                    <img src="images/course/course-3.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">React & Django Full Stack</h3>
                         <p>React single page web app, Django 2 REST API with Python 3, React Native cross platform
@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-4.png" alt="">
+                    <img src="images/course/course-4.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">React Js A-Z With Laravel</h3>
                         <p>Learn React.js for Frontend and Use Laravel for Backend. Become Full Stack Web Developer By
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-5.png" alt="">
+                    <img src="images/course/course-5.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">Full stack Web Development Bootcamp</h3>
                         <p>Web development, Learn HTML, CSS, Javascript, Nodejs, MongoDB, API development, React JS &
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 d-md-flex  justify-content-center">
-                    <img src="images/course/course-6.png" alt="">
+                    <img src="images/course/course-6.png" class="image-fluid w-100" alt="">
                     <div class="p-3 border">
                         <h3 class="fs-5 fw-bold">MERN Stack Front To Back</h3>
                         <p>Build and deploy a social network with Node.js, Express, React, Redux & MongoDB.</p>
@@ -169,7 +169,7 @@
 
         <!-- Modal Part -->
         <section
-            class="bg-warning d-flex flex-column flex-lg-row flex-md-column p-3 justify-content-around align-items-center">
+            class="bg-warning d-flex flex-column flex-lg-row flex-md-column p-3 justify-content-around align-items-center mx-md-3">
             <div class="p-5">
                 <h2 class="text-left text-dark fs-1 fw-bold">Are you ready?</h2>
                 <p class="text-dark fst-normal fs-6">Master your language with lessons, quizzes, and projects designed
@@ -192,16 +192,28 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Join our next batch</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Send me the
+                                    admition link</button>
+                                <button type="button" class="btn btn-secondary">Close</button>
                             </div>
                         </div>
                     </div>
@@ -218,32 +230,24 @@
                 and back-end development and how they interact.
             </p>
 
-            <div class="container accordion w-75" id="accordionPanelsStayOpenExample">
+            <div class="container accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                             aria-controls="panelsStayOpen-collapseOne">
-                            Accordion Item #1
+                            What are the differences between flexbox and grid?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                         aria-labelledby="panelsStayOpen-headingOne">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default,
-                            until the
-                            collapse plugin adds the appropriate classes that we use to style each element.
-                            These
-                            classes
-                            control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You
-                            can
-                            modify any of this with custom CSS or overriding our default variables. It's also
-                            worth
-                            noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the
-                            transition
-                            does limit overflow.
+                            <strong>Grid and flexbox.</strong> The basic difference between CSS
+                            Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension
+                            - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns
+                            at the same time. The two specifications share some common features, however, and if you
+                            have already learned how to use flexbox, the similarities should help you get to grips with
+                            Grid.
                         </div>
                     </div>
                 </div>
@@ -252,27 +256,24 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseTwo">
-                            Accordion Item #2
+                            What are the differences between bootstrap and tailwind?
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingTwo">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                            until
-                            the
-                            collapse plugin adds the appropriate classes that we use to style each element.
-                            These
-                            classes
-                            control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You
-                            can
-                            modify any of this with custom CSS or overriding our default variables. It's also
-                            worth
-                            noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the
-                            transition
-                            does limit overflow.
+                            <strong>Bootstrap and Tailwind.</strong> It is hidden by default,
+                            The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit.
+                            Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS does not have a
+                            default
+                            theme or built-in UI components. Instead, it comes with predesigned widgets you can use to
+                            build your site from scratch.
+                            <br>
+                            <br>
+                            Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS typically
+                            value the framework customizability. The best choice for you depends on your priorities
+                            and project requirements, but lets talk about why Tailwind CSS is quickly gaining
+                            popularity and more widespread use.
                         </div>
                     </div>
                 </div>
@@ -281,54 +282,37 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            What is CSS box model
                         </button>
                     </h2>
                     <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="panelsStayOpen-headingThree">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                            until the
-                            collapse plugin adds the appropriate classes that we use to style each element.
-                            These
-                            classes
-                            control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You
-                            can
-                            modify any of this with custom CSS or overriding our default variables. It's also
-                            worth
-                            noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the
-                            transition
-                            does limit overflow.
+                            <strong>CSS box model.</strong> The CSS box model is a container that contains multiple
+                            properties including borders, margin, padding, and the content itself. It is used to create
+                            the design and layout of web pages. It can be used as a toolkit for customizing the layout
+                            of different elements. The web browser renders every element as a rectangular box according
+                            to the CSS box model. Box-Model has multiple properties in CSS.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                             aria-controls="panelsStayOpen-collapseThree">
-                            Accordion Item #3
+                            What is Semantic tag
                         </button>
                     </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                            until the
-                            collapse plugin adds the appropriate classes that we use to style each element.
-                            These
-                            classes
-                            control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You
-                            can
-                            modify any of this with custom CSS or overriding our default variables. It's also
-                            worth
-                            noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the
-                            transition
-                            does limit overflow.
+                            <strong>Semantic tag.</strong> Elements such as
+                            strong, header, footer and article, are all
+                            considered semantic because they accurately describe the purpose of the element
+                            and the type of content that is inside them.
+                            HTML was originally created as a markup language to describe documents on the early
+                            internet. As the internet grew and was adopted by more people, its needs changed.
                         </div>
                     </div>
                 </div>
@@ -348,10 +332,6 @@
             </div>
         </div>
     </main>
-
-
-
-
 
 
     <!-- Bootstrap JavaScript Link -->
