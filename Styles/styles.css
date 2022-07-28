@@ -3,7 +3,7 @@
 }
 
 .cover-text {
-    margin-bottom: 170px;
+    margin-bottom: 150px;
 }
 
 .social-icon>div {
@@ -30,12 +30,16 @@
 @media screen and (max-width:576px) {
 
     .my-cover-pic {
-        height: 250px;
+        height: 350px;
     }
 
     .cover-text {
         margin: 0;
-        height: 240px;
+        height: 290px;
+    }
+
+    .course-pic {
+        width: 100%;
     }
 }
 
